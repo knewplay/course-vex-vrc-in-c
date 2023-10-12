@@ -3,12 +3,27 @@
 
 ## Session 1
 
-* Begin by giving a background of the VEX Robotics competition, the rules and format of the competition, and the hardware we will be using such as the “VEX V5 Brain”.
-* We introduce the idea of programming languages, give a brief history of C, discuss why C is still used and when it is useful. We will talk about the basics of performance, memory and runtime efficiency in C compared to other languages. Will give motivating examples of well known C projects such as the Linux kernel.
-* Introduction to programming libraries, why they are useful, and why we will be using PROS. We can then briefly introduce IDEs, then setup and install VS Code with the PROS plugin.
-* Homework and in class discussion for the first session will be basic general questions about programming languages, libraries, and robotics. For example, “Compare C and Python, and when you would like to use one vs the other”.
+### Session 1-1: Introduction to VEX Robotics
 
-## Session 2
+* Overview of the VEX Robotics competition, including its rules and format.
+Discussion on the hardware components, specifically the "VEX V5 Brain".
+
+### Session 1-2: Programming Languages and C
+
+* Introduction to the concept of programming languages.
+Brief history of C, its relevance in modern tech, and examples like the Linux kernel.
+Comparisons between C and other languages, highlighting performance, memory, and runtime efficiency.
+
+### Session 1-3: Libraries and PROS
+
+* Explanation of programming libraries and their usefulness.
+Introduction to PROS and its advantages.
+Brief discussion on Integrated Development Environments (IDEs) and setup instructions for VS Code with the PROS plugin.
+
+### Homework & Discussion
+
+* Questions on programming languages, libraries, and robotics.
+Specific task: "Compare C and Python, and discuss scenarios for using each."## Session 2
 
 * We are going to introduce the basic structure of a C program, and assume no programming background. Intro to the main function, indentation, basic I/O, and formatting of C code.
 * How to use variables, purpose of different types such as int, char, float, and how to use arithmetic operators like +, -, *, / vs //, %, etc.
