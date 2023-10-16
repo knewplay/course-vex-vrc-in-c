@@ -7,6 +7,8 @@
 
 * Title slide: "Introduction to VEX Robotics Competition"
 * Overview of the VEX Robotics competition, including its rules, format, and what you will learn.
+* VEX is a global robotics competition for students, in which teams design build and program robots to compete against each other.
+* Matches are played on a square field, with teams competing in alliances of two and trying to earn points against oponents.
 * Present key components and hardware such as the VEX V5 Brain.
 * We can provide short video of past VEX competitions in action.
 
@@ -45,7 +47,7 @@
 * Explanation of programming libraries, i.e. libraries provide code written for us that we can use to build on top of without worrying about details.
 * Introduction to PROS and its advantages over other libraries for VEX. For example, PROS is more popular and better supported than RobotC.
 
-### Discussions
+### Discussion 1-3
 
 * What do you think the benefits of libraries are?
 * How do libraries speed up the development process?
