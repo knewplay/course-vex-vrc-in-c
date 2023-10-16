@@ -81,3 +81,32 @@
 
 1. Compare C and Python, and discuss scenarios for using each.
 2. Write a hello world program in C using VS Code. Make sure it compiles and can print "Hello world".
+
+## **Session 2: PROS and C Programming Basics**
+
+### Subsession 2-1
+
+#### Slides 2-1
+
+* Title Slide: *Basic Structure of a C program*
+* Explanation of the main function, and its significance in a C program. Most importantly, we will discuss how all program execution in C starts from main.
+* Discuss how to properly indent, space, and format code properly for readability.
+
+#### Discussion 2-1
+
+* Why is main important in a C program?
+
+#### Example Code 2-1
+
+* Basic C program with hello world
+
+#### Demo 2-1
+
+* Some examples of incorrect C programs with common mistakes in syntax and formatting
+
+### Subsession 2-2
+
+
+
+
+
