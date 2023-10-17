@@ -28,7 +28,7 @@
 
 * Title slide: *Programming Languages and the Role of C*
 
-* Introduction to the concept of programming languages.
+* Introduction to the concept of programming languages. What is programming langue, why is it used, history of programming.
 * Brief history of C and its relevance in modern technology. Provide examples of well known software written in C, such as the Linux kernel.
 * Comparisons between C and other languages, highlighting basics of performance, memory, and runtime efficiency.
 
@@ -37,13 +37,9 @@
 * Why do you think C is still relevant today?
 * What type of software is C usually used for?
 
-#### Example Code
-
-* "Hello World" program in VEX
-
 #### Demo
 
-* Point out syntax, indentation, basic structure of C program.
+* Show example of basic "Hello World" program and point out syntax, indentation, basic structure of C program. Make sure to point out consistent spacing, valid vs invalid variable names, must always have main function, etc.
 
 ### Subsession 1-3
 
@@ -59,6 +55,10 @@
 * How do libraries speed up the development process?
 * How does PROS help us in programming our VEX Robot?
 
+#### Demo
+
+* Show PROS code that is part of a new PROS project. Show opcontrol(), initialize(), and autonomous() functions and give basic explanation.
+
 ### Subsession 1-4
 
 #### Slides
@@ -70,11 +70,12 @@
 
 #### Discussion
 
-* What are the benefits of VS Code?
+* What are some benefits and features of VS Code?
 * What are the benefits of git?
 
 #### Demo
 
+* Tour of VS code
 * Installing and setting up the PROS Plugin in VS Code.
 
 #### Homework
@@ -106,6 +107,21 @@
 
 ### Subsession 2-2
 
+#### Slides
+
+* Title Slide: *Variables in C: Types and Operators*
+* We will provide an introduction to important variable types in C, such as void, int, char, and float.
+* Can di
+
+#### Discussion
+
+* Imagine a robot is reading vision sensor data as input, and you want to store the data into a variable. How do you think the data is represented, and what should the type be of the variable?
+* What are the different uses for int, char, and float variables?
+* What is the difference between the /, //, and % operators?
+
+#### Example Code
+
+* C program showing different types of variable assignments and operators, as well as snippet of PROS opcontrol function that makes use of void and int variables.
 
 
 
