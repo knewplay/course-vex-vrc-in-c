@@ -5,7 +5,7 @@
 
 ### Subsession 1-1
 
-#### Slides 1.1
+#### Slides
 
 * Title slide: *Introduction to VEX Robotics Competition*
 * Overview of the VEX Robotics competition, including its rules, format, and what you will learn.
@@ -14,17 +14,17 @@
 * Present key components and hardware such as the VEX V5 Brain.
 * We can provide short video of past VEX competitions in action.
 
-#### Discussion 1.1
+#### Discussion
 
 * What do you think the some of the features of the VEX V5 brain are? What kind of things can it allow our robot to do?
 
-#### Demo 1.1
+#### Demo
 
 * We will introduce the main hardware, the "VEX V5 Brain", and give physical demo of its use and features.
 
 ### Subsession 1-2
 
-#### Slides 1-2
+#### Slides
 
 * Title slide: *Programming Languages and the Role of C*
 
@@ -32,28 +32,28 @@
 * Brief history of C and its relevance in modern technology. Provide examples of well known software written in C, such as the Linux kernel.
 * Comparisons between C and other languages, highlighting basics of performance, memory, and runtime efficiency.
 
-#### Discussion 1-2
+#### Discussion
 
 * Why do you think C is still relevant today?
 * What type of software is C usually used for?
 
-#### Example Code 1-2
+#### Example Code
 
 * "Hello World" program in VEX
 
-#### Demo 1-2
+#### Demo
 
 * Point out syntax, indentation, basic structure of C program.
 
 ### Subsession 1-3
 
-#### Slides 1-3
+#### Slides
 
 * Title Slide: Programming Libraries and PROS
 * Explanation of programming libraries, i.e. libraries provide code written for us that we can use to build on top of without worrying about details.
 * Introduction to PROS and its advantages over other libraries for VEX. For example, PROS is more popular and better supported than RobotC.
 
-#### Discussion 1-3
+#### Discussion
 
 * What do you think the benefits of libraries are?
 * How do libraries speed up the development process?
@@ -61,19 +61,19 @@
 
 ### Subsession 1-4
 
-#### Slides 1-4
+#### Slides
 
 * Title Slide: IDEs and Common Software Tools
 * We will discuss popular IDEs and text editors such as VS Code, Sublime, Vim, Emacs.
 * Basic intro to VS Code and how to navigate the UI.
 * We will introduce git and github. Git is a version control software that allows us to conveniently take snapshots of our code at any point in time, and revert back to it.
 
-#### Discussion 1-4
+#### Discussion
 
 * What are the benefits of VS Code?
 * What are the benefits of git?
 
-#### Demo 1-4
+#### Demo
 
 * Installing and setting up the PROS Plugin in VS Code.
 
@@ -86,21 +86,21 @@
 
 ### Subsession 2-1
 
-#### Slides 2-1
+#### Slides 
 
 * Title Slide: *Basic Structure of a C program*
 * Explanation of the main function, and its significance in a C program. Most importantly, we will discuss how all program execution in C starts from main.
 * Discuss how to properly indent, space, and format code properly for readability.
 
-#### Discussion 2-1
+#### Discussion 
 
 * Why is main important in a C program?
 
-#### Example Code 2-1
+#### Example Code 
 
 * Basic C program with hello world
 
-#### Demo 2-1
+#### Demo
 
 * Some examples of incorrect C programs with common mistakes in syntax and formatting
 
