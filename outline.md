@@ -91,18 +91,17 @@
 
 * Title Slide: *Basic Structure of a C program*
 * Explanation of the main function, and its significance in a C program. Most importantly, we will discuss how all program execution in C starts from main.
-* Discuss how to properly indent, space, and format code properly for readability.
+* Review how to properly indent, space, and format code properly for readability.
+* Give basic explanation of header, i.e. what does #include <stdio.h> mean.
 
-#### Discussion 
+#### Discussion
 
-* Why is main important in a C program?
-
-#### Example Code 
-
-* Basic C program with hello world
+* Where does the code execution begin in a C program?
+* Why do we need a main function?
 
 #### Demo
 
+* Have students write setup for C program
 * Some examples of incorrect C programs with common mistakes in syntax and formatting
 
 ### Subsession 2-2
@@ -111,7 +110,7 @@
 
 * Title Slide: *Variables in C: Types and Operators*
 * We will provide an introduction to important variable types in C, such as void, int, char, and float.
-* Can di
+* How to declare variables, and how to update variables
 
 #### Discussion
 
@@ -119,10 +118,18 @@
 * What are the different uses for int, char, and float variables?
 * What is the difference between the /, //, and % operators?
 
-#### Example Code
+#### Demo
 
 * C program showing different types of variable assignments and operators, as well as snippet of PROS opcontrol function that makes use of void and int variables.
 
+### Subsession 2-3
 
+#### Slides
 
+* Title Slide: *Compiling C Programs*
+* Basic introduction to the concept of compiling - i.e. transforming C code into executable format.
+* Why compiling is necessary in C.
 
+#### Demo
+
+* Live demonstration of compiling a C program, from writing the code to execution of the compiled output.
