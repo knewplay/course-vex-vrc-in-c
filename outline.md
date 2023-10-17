@@ -133,3 +133,35 @@
 #### Demo
 
 * Live demonstration of compiling a C program, from writing the code to execution of the compiled output.
+
+## Session 3: Functions and Problem Solving with Programming
+
+### Subsession 3-1
+
+#### Slides
+
+* Title Slide: *Understanding Loops*
+* Introduction to loops in programming. Explain while and for loops, and why we use them in our code.
+* Discuss why loops can be particulalry useful for solving repetive tasks, and examples of how they are used in robotics programming.
+
+#### Discussion
+
+* Why are loops essential in programming, and what are their benefits?
+* Give an example of a problem that would benefit from using loops.
+
+#### Demo
+
+* Practical example of using loops in the context of PROS. In the PROS initialize() function, we can use a loop to initialize properties of multiple sensors.
+
+### Subsession 3-2
+
+#### Slides
+
+* Title Slide: *Probem Solving with Programming*
+* We will introduce problem solving strategies in programming such as breaking down the problem into simpler steps, designing an algorithm, and coding the solution, and how functions can be effective for this.
+
+#### Discussion
+
+* What are the key steps in problem solving through programming?
+
+#### Demo
