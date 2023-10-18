@@ -11,7 +11,7 @@
 * Overview of the VEX Robotics competition, including its rules, format, and what you will learn.
 * VEX is a global robotics competition for students, in which teams design build and program robots to compete against each other.
 * Matches are played on a square field, with teams competing in alliances of two and trying to earn points against oponents.
-* Present key components and hardware such as the VEX V5 Brain.
+* Present key components and hardware such as the VEX V5 Brain. I will present the V5 hardware in person and demo it.
 * We can provide short video of past VEX competitions in action.
 
 #### Discussion
@@ -20,7 +20,7 @@
 
 #### Demo
 
-* We will introduce the main hardware, the "VEX V5 Brain", and give physical demo of its use and features.
+* We will introduce the main hardware, the "VEX V5 Brain", and give physical demo of its use and features. We will show where to find the stored programs you upload, for example.
 
 ### Subsession 1-2
 
@@ -28,9 +28,20 @@
 
 * Title slide: *Programming Languages and the Role of C*
 
-* Introduction to the concept of programming languages. What is programming langue, why is it used, history of programming.
-* Brief history of C and its relevance in modern technology. Provide examples of well known software written in C, such as the Linux kernel.
-* Comparisons between C and other languages, highlighting basics of performance, memory, and runtime efficiency.
+Slide 1: Intro to Programming Languages
+
+* Introduction to the concept of programming languages. What is programming language, why is it used, history of programming.
+* A programming language is a set of instructions and syntax used to communicate with computers, which allows us to create software effectively.
+
+Slide 2: Brief C history
+
+* C programming language, developed in the 1970s by Dennis Ritchie, has left an indelible mark on the world of computing.
+* C is still relevant today because it forms the basis for many other languages and is widely used in system programming, embedded systems, and low-level development.
+* Notable software like the Linux kernel, Python's CPython interpreter, and various operating systems are written in C, underscoring its significance.
+
+Slide 3: C vs. Other Languages
+
+* C stands out as an efficient language, making it well suited for applications that require speed and resource optimization.
 
 #### Discussion
 
