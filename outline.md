@@ -8,6 +8,9 @@
 #### Slides
 
 * Title slide: *Introduction to VEX Robotics Competition*
+
+#### Slide 1: Rules of VEX Competition
+
 * Overview of the VEX Robotics competition, including its rules, format, and what you will learn.
 * VEX is a global robotics competition for students, in which teams design build and program robots to compete against each other.
 * Matches are played on a square field, with teams competing in alliances of two and trying to earn points against oponents.
@@ -71,6 +74,10 @@ Slide 2: What is PROS, and Why Do We Use It?
 * PROS is widely used and supported, and has good integration with VS Code.
 * We explore PROS in more detail in the coming sessions.
 
+Slide 3: Getting Started with PROS
+
+* To get started, we will install the PROS plugin in VS Code and set up our development environment.
+
 #### Discussion
 
 * What do you think the benefits of libraries are?
@@ -86,6 +93,9 @@ Slide 2: What is PROS, and Why Do We Use It?
 #### Slides
 
 * Title Slide: IDEs and Common Software Tools
+
+#### Slide 1: Introduction to Text Editors and IDEs
+
 * We will discuss popular IDEs and text editors such as VS Code, Sublime, Vim, Emacs.
 * Basic intro to VS Code and how to navigate the UI.
 * We will introduce git and github. Git is a version control software that allows us to conveniently take snapshots of our code at any point in time, and revert back to it.
@@ -97,7 +107,7 @@ Slide 2: What is PROS, and Why Do We Use It?
 
 #### Demo
 
-* Tour of VS code
+* Tour of VS code: How to create project, how to install plugins, using basic git commands, PROS plugin demo'd
 * Installing and setting up the PROS Plugin in VS Code.
 
 #### Homework
