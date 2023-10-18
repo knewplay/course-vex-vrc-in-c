@@ -35,7 +35,7 @@ Slide 1: Intro to Programming Languages
 
 Slide 2: Brief C history
 
-* C programming language, developed in the 1970s by Dennis Ritchie, has left an indelible mark on the world of computing.
+* C programming language, developed in the 1970s by Dennis Ritchie, has left an permanent mark on the world of computing.
 * C is still relevant today because it forms the basis for many other languages and is widely used in system programming, embedded systems, and low-level development.
 * Notable software like the Linux kernel, Python's CPython interpreter, and various operating systems are written in C, underscoring its significance.
 
@@ -57,8 +57,19 @@ Slide 3: C vs. Other Languages
 #### Slides
 
 * Title Slide: Programming Libraries and PROS
-* Explanation of programming libraries, i.e. libraries provide code written for us that we can use to build on top of without worrying about details.
-* Introduction to PROS and its advantages over other libraries for VEX. For example, PROS is more popular and better supported than RobotC.
+
+Slide 1: What are Programming Libraries?
+
+* Programming libraries are pre-written code modules that can be used in your programs.
+* They provide functionality and tools that you can use without having to write everything from scratch.
+* Libraries save time and reduce errors in software development.
+
+Slide 2: What is PROS, and Why Do We Use It?
+
+* PROS is a popular open source programming library for VEX.
+* It is specifically designed for our V5 hardware, and so it simplifies the process of programming your robot.
+* PROS is widely used and supported, and has good integration with VS Code.
+* We explore PROS in more detail in the coming sessions.
 
 #### Discussion
 
