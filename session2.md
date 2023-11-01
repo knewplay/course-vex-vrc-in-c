@@ -1,15 +1,15 @@
 # **Session 2: PROS and C Programming Basics**
 
-<!-- ### Subsession 2-1 -->
-
-<!-- ####   -->
 ---
 
 ## *Basic Structure of a C program*
 
-* Explanation of the main function, and its significance in a C program. We will discuss how all program execution in C starts from our main function.
+<!-- * Explanation of the main function, and its significance in a C program. We will discuss how all program execution in C starts from our main function.
 * Review how to properly indent, space, and format code properly for readability and consistency.
 * Give basic explanation of header, i.e. what does #include <stdio.h> mean. Header files are files with a '.h' extension and contains code that we can import into our current file. It is useful for code organization and readability.
+ -->
+* *main* function: Starting point of any generic C program
+* Header files are pre-written code that you can use, making programs organized and easier to read. For example #include <stdio.h>.
 
 ---
 
@@ -22,7 +22,7 @@
 
 ## Demo
 
-* Have students write setup for C program, basically a hello world program with the correct syntax, formatting, and spacing.
+* Write a hello world program in C by yourself, with no references. Remember the basic requirements for a generic C program.
 
 ---
 
@@ -54,6 +54,7 @@
 <!-- * Basic introduction to the concept of compiling - i.e. transforming C code into executable format.
 * Why compiling is necessary in C, unlike some other languages such as Python. -->
 * Compiling converts human-readable C code into machine code, allowing computers to execute it directly.
+* It is a big component of what makes C code so fast*
 
 ---
 
