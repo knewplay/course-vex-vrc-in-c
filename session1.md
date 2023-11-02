@@ -6,7 +6,16 @@ marp: true
 
 ---
 
-# Rules of VEX Competition
+## Goals
+
+* Get an overview of VEX Robotics hardware and software
+* Understand why and when to use the C programming language
+* Intro to PROS, VS Code and Git
+
+---
+
+
+## Rules of VEX Competition
 
 <!-- * Overview of the VEX Robotics competition, including its rules, format, and what you will learn. -->
 * VEX is a global robotics competition for students, in which teams design build and program robots to compete against each other.
@@ -28,7 +37,7 @@ marp: true
 
 ---
 
-# Programming Languages and the Role of C
+## Programming Languages and the Role of C
 
 <!-- * Introduction to the concept of programming languages. What is programming language, why is it used, history of programming. -->
 * A programming language is a set of instructions and syntax used to communicate with computers, which allows us to create software effectively.
@@ -36,7 +45,7 @@ marp: true
 
 ---
 
-# Programming Languages and the Role of C
+## Programming Languages and the Role of C
 
 * C is still relevant today because it forms the basis for many other languages and is widely used in system programming, embedded systems, and low-level development.
 * Notable software like the Linux kernel, Python's CPython interpreter, and various operating systems are written in C, underscoring its significance.
@@ -57,7 +66,7 @@ marp: true
 
 ---
 
-# Programming Libraries and PROS 
+## Programming Libraries and PROS 
 
 ---
 
@@ -98,7 +107,7 @@ marp: true
 
 ---
 
-# IDEs and Common Software Tools
+## IDEs and Common Software Tools
 
 ---
 
