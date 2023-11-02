@@ -2,13 +2,20 @@
 
 ---
 
-## *Basic Structure of a C program*
+## Goals
+
+* Learn the basic structure of a C program
+* Learn how variables, types, and arithmetic expressions work in C
+
+---
+
+## Basic Structure of a C program
 
 <!-- * Explanation of the main function, and its significance in a C program. We will discuss how all program execution in C starts from our main function.
 * Review how to properly indent, space, and format code properly for readability and consistency.
 * Give basic explanation of header, i.e. what does #include <stdio.h> mean. Header files are files with a '.h' extension and contains code that we can import into our current file. It is useful for code organization and readability.
  -->
-* *main* function: Starting point of any generic C program
+* `main()` function: Starting point of any generic C program
 * Header files are pre-written code that you can use, making programs organized and easier to read. For example #include <stdio.h>.
 
 ---
