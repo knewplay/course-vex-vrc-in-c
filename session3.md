@@ -2,6 +2,14 @@
 
 ---
 
+## Goals
+
+* Problem solving with programming
+* Learn how functions + loops work in C and PROS
+* How to upload your code to the V5
+
+---
+
 ## Understanding Loops
 
 * Loops in programming such as 'while' and 'for' let us repeat tasks in our code. They're great for handling repetive actions.
