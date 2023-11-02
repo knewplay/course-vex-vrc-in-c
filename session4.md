@@ -2,6 +2,14 @@
 
 ---
 
+## Goals
+
+* How header files work in C
+* Analog vs Digital signals and sensors in VEX
+* Understanding important PROS functions
+
+---
+
 ## PROS Project Structure
 
 * PROS projects are made up of three parts
