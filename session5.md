@@ -27,3 +27,10 @@
 # Demo
 
 * Let's connect some sensors to our V5 and make a header file that declares all of them
+
+## Initializing our Sensors
+
+* Recall that our three main PROS functions are ```initialize()```, ```opcontrol()```, and ```autonomous()```
+* Sometimes we have to do extra setup for our sensors or motors, and it is done in the ```intialize()``` function
+* For example, if our motor is going to rotate gears, we have to declare what type of gears we are using
+
