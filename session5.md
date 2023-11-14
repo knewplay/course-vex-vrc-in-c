@@ -20,13 +20,17 @@
 
 ---
 
-# Discussion
+## Discussion
 
 * How would you declare a sensor for a motor if it was connected to port 5?
 
-# Demo
+---
+
+## Demo
 
 * Let's connect some sensors to our V5 and make a header file that declares all of them
+
+---
 
 ## Initializing our Sensors
 
@@ -34,3 +38,55 @@
 * Sometimes we have to do extra setup for our sensors or motors, and it is done in the ```intialize()``` function
 * For example, if our motor is going to rotate gears, we have to declare what type of gears we are using
 
+---
+
+## Discussion
+
+* Can you explain in your own word what the three main PROS functions are, and what their purpose is?
+
+---
+
+## Demo
+
+* Now let's take a look at how we used the three functions in our clawbot.
+
+---
+
+## Controlling Our Robot With Sensors Using the PROS API
+
+* We want to create a loop in our ```opcontrol()``` function which will always be running
+* Inside the loop we put our PROS API functions to control the motors and sensors
+* Example: ```motor_move_velocity(WHEELS, 100)```
+
+---
+
+## Discussion
+
+* What would happen if we didn't have ```while (true)``` in our ```opcontrol()``` function?
+
+---
+
+## Demo
+
+* Let's now see what functions we can use in our opcontrol() function to modify the behaviour of our robot
+* We will control the motors and also briefly look at the vision sensor
+
+---
+
+## Making Our Robot Autonomous
+
+* To move our robot without using our controller, we simply put code in our ```autonomous()``` function
+
+---
+
+## Discussion
+
+* What sensors do you think we should control in our ```autonomous()``` function?
+
+---
+
+# Demo
+
+* Let's step through the code for autonomous and see what functions we can add to it through the PROS API
+
+---
