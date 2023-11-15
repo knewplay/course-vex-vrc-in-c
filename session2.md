@@ -16,7 +16,7 @@
 * Give basic explanation of header, i.e. what does #include <stdio.h> mean. Header files are files with a '.h' extension and contains code that we can import into our current file. It is useful for code organization and readability.
  -->
 * `main()` function: Starting point of any generic C program
-* Header files are pre-written code that you can use, making programs organized and easier to read. For example #include <stdio.h>.
+* Header files are pre-written code that you can use, making programs organized and easier to read. For example #include `<stdio.h>`.
 
 ---
 
@@ -30,11 +30,14 @@
 ## Demo
 
 * Write a hello world program in C by yourself, with no references. Remember the basic requirements for a generic C program.
+* Try and see what happens with and without including `<stdio.h>`. What error do you get?
+* Create header file called `example.h` with the code `int a = 5;`. Include it in our `main.c` file, and from our `main()` function print the variable a. What happens?
 
 ---
 
 ## Variables in C: Types and Operators
 
+<!-- Illustration Idea: Starting from source code file, show how how programs are ultimately represented in computer memory as 1s and 0s after compilation -->
 * Everything in a computer is just represented as 1s and 0s
 * C has various operators such as +, -, *, //, /, %
 * In C, we categorize data into different "types" based on the kind of information they hold. int for integer, float for decimals, char for letters, etc.
