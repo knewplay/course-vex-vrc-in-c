@@ -14,19 +14,19 @@ marp: true
 
 ---
 
-
 ## Rules of VEX Competition
 
-<!-- * Overview of the VEX Robotics competition, including its rules, format, and what you will learn. -->
+<!-- Notes: Overview of the VEX Robotics competition, including its rules, format, and what you will learn. -->
 * VEX is a global robotics competition for students, in which teams design build and program robots to compete against each other.
 * Matches are played on a square field, with teams competing in alliances of two and trying to earn points against oponents.
-<!-- * Present key components and hardware such as the VEX V5 Brain. I will present the V5 hardware in person and demo it. -->
-<!-- * We can provide short video of past VEX competitions in action. -->
+<!-- Notes: Present key components and hardware such as the VEX V5 Brain. I will present the V5 hardware in person and demo it. -->
+<!-- Notes: We can provide short video of past VEX competitions in action. -->
 
 ---
 
 ## Discussion
 
+<!-- Notes: Load and run our C programs, directly controls the hardware such as motors and gears, etc. -->
 * What do you think the some of the features of the VEX V5 brain are? What kind of things can it allow our robot to do?
 
 ---
@@ -39,18 +39,20 @@ marp: true
 
 ## Programming Languages and the Role of C
 
-<!-- * Introduction to the concept of programming languages. What is programming language, why is it used, history of programming. -->
+<!-- Notes: Introduction to the concept of programming languages. What is programming language, why is it used, history of programming. -->
 * A programming language is a set of instructions and syntax used to communicate with computers, which allows us to create software effectively.
 * C programming language, developed in the 1970s by Dennis Ritchie, has left an permanent mark on the world of computing.
+<!-- Illustration Idea: Illustration here showing C algorithm designed by coder inputted into computer -->
 
 ---
 
 ## Programming Languages and the Role of C
 
+<!-- Notes: Briefly discuss how C is close to the hardware, and can interact with memory manually, whereas other languages do not give as much access -->
 * C is still relevant today because it forms the basis for many other languages and is widely used in system programming, embedded systems, and low-level development.
-* Notable software like the Linux kernel, Python's CPython interpreter, and various operating systems are written in C, underscoring its significance.
-* C stands out as an efficient language, making it well suited for applications that require speed and resource optimization.
-
+* Notable software like the Linux kernel, video games, and various operating systems are written in C, underscoring its significance.
+* C stands out as an efficient language because you can interact easily with computer memory, making it well suited for applications that require speed and resource optimization.
+<!-- Illustration idea: Show the basics of how computer memory is organized -->
 ---
 
 ## Discussion
@@ -62,11 +64,12 @@ marp: true
 
 ## Demo
 
+<!-- Notes: Ensure that students understand basic concepts below and can write the hello world program by themselves from scratch before moving on to more advanced concepts -->
 * Let's look at an example of basic "Hello World" program and point out syntax, indentation, basic structure of C program. Make sure to pay attention to the consistent spacing and indentation.
 
 ---
 
-## Programming Libraries and PROS 
+## Programming Libraries and PROS
 
 ---
 
@@ -95,9 +98,15 @@ marp: true
 
 ## Discussion
 
-* What do you think the benefits of libraries are?
+<!-- Important to understand this idea as the entire course is based on PROS, a library. A few things we'd have to do without PROS: 
+- Direct Hardware Communication: Manually manage protocols for motors, sensors, and V5 brain.
+- Sensor Data Processing: Calibrate and interpret raw sensor data
+- Must create basic functions like angle calculations yourself
+- Develop your own way to debug code, manually manage memory processing, etc.
+-->
+* What do you think the benefits of libraries are? Can you name any widely used libraries?
 * How do libraries speed up the development process?
-* How does PROS help us in programming our VEX Robot?
+* How does PROS help us in programming our VEX Robot? What do you think are some things we'd have to do ourselves if we didn't have PROS?
 
 ---
 
