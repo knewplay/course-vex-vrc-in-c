@@ -16,7 +16,7 @@
 * Give basic explanation of header, i.e. what does #include <stdio.h> mean. Header files are files with a '.h' extension and contains code that we can import into our current file. It is useful for code organization and readability.
  -->
 * `main()` function: Starting point of any generic C program
-* Header files are pre-written code that you can use, making programs organized and easier to read. For example #include `<stdio.h>`.
+* Header files are pre-written code that you can use, making programs organized and easier to read. For example `#include <stdio.h>`.
 
 ---
 
