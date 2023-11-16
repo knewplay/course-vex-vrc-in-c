@@ -16,7 +16,7 @@
 * Recall our VEX V5 has 21 ports, and we can connect our sensor to any port.
 * Clean and simple way: ```#define SENSOR_1 11```
 * ```SENSOR_1``` can now be used to reference our sensor connected to port 11
-* Put all sensor declarations in header file for better organization
+* If you have many sensors, put their declarations in header file for better organization
 
 ---
 
@@ -37,18 +37,21 @@
 * Recall that our three main PROS functions are ```initialize()```, ```opcontrol()```, and ```autonomous()```
 * Sometimes we have to do extra setup for our sensors or motors, and it is done in the ```intialize()``` function
 * For example, if our motor is going to rotate gears, we have to declare what type of gears we are using
+<!-- Notes: Give brief description of gear ratio and why it's important -->
+<!-- Illustration idea: Different types of VEX gears and their importance -->
 
 ---
 
 ## Discussion
 
-* Can you explain in your own word what the three main PROS functions are, and what their purpose is?
+* Can you explain in your own words what the three main PROS functions are, and what their purpose is?
 
 ---
 
 ## Demo
 
 * Now let's take a look at how we used the three functions in our clawbot.
+<!-- Notes: During this process, take opportunity to show students the PROS API and functions we can use and experiment with from there -->
 
 ---
 
@@ -75,13 +78,13 @@
 
 ## Making Our Robot Autonomous
 
-* To move our robot without using our controller, we simply put code in our ```autonomous()``` function
+* To move our robot without using our controller, we simply put code in our ```autonomous()``` function, and select the autonomous mode from our VEX V5 controller
 
 ---
 
 ## Discussion
 
-* What sensors do you think we should control in our ```autonomous()``` function?
+* In autonomous mode, you cannot increase speed by pushing the joystick harder. How do you think we could vary the speed using code in our `autonomous()` function?
 
 ---
 
