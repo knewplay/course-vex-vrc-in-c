@@ -5,13 +5,14 @@
 ## Goals
 
 * Problem solving with programming
-* Learn how functions + loops work in C and PROS
-* How to upload your code to the V5
+* Learn how functions and loops work in C and PROS
+* How to upload your code to the VEX V5 Brain
 
 ---
 
 ## Understanding Loops
 
+<!-- Notes: Give examples of infinite loops such as while (true) in the context of PROS opcontrol(), as well as in game development to build intuition -->
 * Loops in programming such as 'while' and 'for' let us repeat tasks in our code. They're great for handling repetive actions.
 * In robotics, they are commonly used in scanning and movement.
 
@@ -19,6 +20,7 @@
 
 ## Discussion
 
+<!-- Notes: Main example discussed should be about updating state from within loop, which is most important for PROS -->
 * Why are loops essential in programming, and what are their benefits?
 * Give an example of a problem that would benefit from using loops.
 
@@ -33,10 +35,11 @@
 
 ## Probem Solving with Programming
 
-<!-- * We will introduce problem solving strategies in programming such as breaking down the problem into simpler steps, designing an algorithm, and coding the solution, and how functions can be effective for this. -->
+<!-- Notes: We will introduce problem solving strategies in programming such as breaking down the problem into simpler steps, designing an algorithm, and coding the solution, and how functions can be effective for this. -->
 * Break problems down into simpler steps
 * Design an algorithm for the solution
 * Code the solution
+<!-- Illustration Idea: Show process of breaking down problem in real life into a programming problem. For example, remotely controlling lights with sensor or making discord bot -->
 
 ---
 
@@ -56,6 +59,7 @@
 
 * Functions are reusable blocks of code. You can define functions through a function name, parameters, return type, and body. All functions follow this format.
 * The advantages of functions: modularity and better code organization.
+<!-- Illustration idea: Functions as machines that take input and produce output -->
 
 ---
 
@@ -69,6 +73,7 @@
 
 ## Demo
 
+* Let's see a side by side comparison of a C program with no functions used, and then the same program but with functions
 * Create and demonstrate a simple function in C that performs a specific task in PROS for robotics, such as a function to control motor speed.
 
 ---
