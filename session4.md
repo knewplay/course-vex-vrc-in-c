@@ -12,6 +12,7 @@
 
 ## PROS Project Structure
 
+<!-- Notes: Consider touring through a standard PROS project once again to remind students about its structure and briefly look inside the below files -->
 * PROS projects are made up of three parts
   * PROS Library (/firmware)
   * Header files (/include)
@@ -21,6 +22,7 @@
 
 ## PROS Header Files
 
+<!-- Notes: Look inside api.h and main.h to get students familiar with these files -->
 * api.h: contains PROS API functions such as `motor_move()`
 * main.h: contains user declared code i.e. anything you want to add
 
@@ -44,11 +46,14 @@
 ## Demo
 
 * Let's create a new PROS project and see how each of `initialize()`, `opcontrol()`, `autonomous()` work in practice
+* We'll also define our own header file and include it in `api.h`
 
 ---
 
 ## Analog vs Digital Sensors
 
+<!-- Notes: Explain why we need to know analog vs digital for PROS. Some sensors are analog and some are digital, and it effects how we write code and instruct computer -->
+<!-- Illustration Idea: Show visual difference between analog vs digital -->
 * Sensors will read incoming signals. Signals can be either analog or digital
 * Digital signals are either ON or OFF, only representing a specific set of values
   * Example: light switches
@@ -71,6 +76,7 @@
 
 ## Important Analog Sensors in VEX
 
+<!-- Notes: Have sensors to show students in person -->
 * Potentiometer: Measures angular position.
 * Light Sensor: Produces an analog value based on the amount of light it detects
 
@@ -91,10 +97,7 @@
 
 ## Demo
 
+<!-- Notes: Use light sensor and bumper switch as examples -->
 * Let's connect these sensors to our V5 and read their values to see how they are represented in our code
-
----
-
-## Homework
 
 ---
