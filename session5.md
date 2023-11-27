@@ -4,6 +4,7 @@
 
 ## Goals
 
+<!-- Notes: Students should be able to write basic code to control a wheeled robot after this lesson -->
 * How to initialize and configure any sensor in VEX for our robot
 * How to read and write to sensors in order to control our robot
 * How to make our robot autonomous
@@ -12,6 +13,7 @@
 
 ## Declaring our Sensors
 
+<!-- Notes: Make sure students understand port is just a way to inferface to sensor -->
 * To use any sensor in VEX using PROS, we first need to declare the port it is connected to in our C program.
 * Recall our VEX V5 has 21 ports, and we can connect our sensor to any port.
 * Clean and simple way: ```#define SENSOR_1 11```
@@ -57,9 +59,10 @@
 
 ## Controlling Our Robot With Sensors Using the PROS API
 
-* We want to create a loop in our ```opcontrol()``` function which will always be running
+* We want to create a loop in our ```opcontrol()``` function which will always be running while the robot is on
 * Inside the loop we put our PROS API functions to control the motors and sensors
 * Example: ```motor_move_velocity(WHEELS, 100)```
+* For our clawbot, the arm, claw, and wheels connected to motors that we control with code using PROS API
 
 ---
 
@@ -79,6 +82,7 @@
 ## Making Our Robot Autonomous
 
 * To move our robot without using our controller, we simply put code in our ```autonomous()``` function, and select the autonomous mode from our VEX V5 controller
+* Can use any part of PROS API in autonomous that doesn't involve reading controller input. For example, ```move_relative_velocity()```
 
 ---
 
