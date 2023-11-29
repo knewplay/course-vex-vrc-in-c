@@ -174,8 +174,7 @@ void opcontrol() {
 
 <!--Illustration idea: 
 
-Show output of "Hello World" program on VS Code terminal of a computer screen
-
+Show output of "Hello World" program on VS Code terminal of a computer screen:
 -->
 * Write a "Hello World" program in C using VS Code. Make sure it compiles and can print "Hello world"
 ["Hello, World!" Program](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
