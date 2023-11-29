@@ -16,11 +16,11 @@ marp: true
 
 ## Rules of VEX Competition
 
-<!-- Notes: Overview of the VEX Robotics competition, including its rules, format, and what you will learn. -->
-* VEX is a global robotics competition for students, in which teams design build and program robots to compete against each other.
-* Matches are played on a square field, with teams competing in alliances of two and trying to earn points against oponents.
+<!-- Notes: Give overview of the VEX Robotics competition, including its rules, format, and what you will learn. -->
 <!-- Notes: Present key components and hardware such as the VEX V5 Brain. I will present the V5 hardware in person and demo it. -->
 <!-- Notes: We can provide short video of past VEX competitions in action. -->
+* VEX is a global robotics competition for students, in which teams design build and program robots to compete against each other.
+* Matches are played on a square field, with teams competing in alliances of two and trying to earn points against oponents.
 
 ---
 
@@ -40,24 +40,38 @@ marp: true
 ## Programming Languages and the Role of C
 
 <!-- Notes: Introduction to the concept of programming languages. What is programming language, why is it used, history of programming. -->
-* A programming language is a set of instructions and syntax used to communicate with computers, which allows us to create software effectively.
+* A programming language is a set of instructions and syntax used to communicate with computers
 * C programming language, developed in the 1970s by Dennis Ritchie, has left an permanent mark on the world of computing.
-<!-- Illustration Idea: Illustration here showing C algorithm designed by coder inputted into computer -->
+<!-- Illustration: 
+
+Programmer next to a VEX robot arm with a idea bubble that has simplified coding logic to control arm. For example, 
+
+if object_detected then
+    move_arm_to(object_position)
+    close_claw()
+-->
 
 ---
 
 ## Programming Languages and the Role of C
 
 <!-- Notes: Briefly discuss how C is close to the hardware, and can interact with memory manually, whereas other languages do not give as much access -->
-* C is still relevant today because it forms the basis for many other languages and is widely used in system programming, embedded systems, and low-level development.
-* Notable software like the Linux kernel, video games, and various operating systems are written in C, underscoring its significance.
-* C stands out as an efficient language because you can interact easily with computer memory, making it well suited for applications that require speed and resource optimization.
-<!-- Illustration idea: Show the basics of how computer memory is organized -->
+* C is still relevant today, it is widely used in operating system programming, embedded systems, and electronics
+* Notable software like the Linux kernel, video games and operating systems like Android are written in C
+* C lets us interact easily with computer memory, making it well suited for applications that require speed and efficiency
+<!-- Illustration: 
+
+Embedded device and code snippet that controls it. Example: smart light bulb
+
+A kid sitting at their desk with a microcontroller such as a raspberry pi that has wires connected to a computer and a smart bulb. The computer screen shows code that will control the bulb, for example:
+
+if motion_detected() and time is between 6 PM and 6 AM then:
+    turn_on(light_bulb)
+-->
 ---
 
 ## Discussion
 
-* Why do you think C is still relevant today?
 * What type of software is C usually used for?
 
 ---
@@ -75,18 +89,18 @@ marp: true
 
 ## What are Programming Libraries?
 
-* Programming libraries are pre-written code modules that can be used in your programs.
-* They provide functionality and tools that you can use without having to write everything from scratch.
-* Libraries save time and reduce errors in software development.
+* A library is pre-written code that you can use in your own programs
+* They provide functionality and tools that you can use without having to write everything from scratch
+* Libraries save time and reduce errors in software development
 
 --- 
 
 ## What is PROS, and Why Do We Use It?
 
-* PROS is a popular open source programming library for VEX.
-* It is specifically designed for our V5 hardware, and so it simplifies the process of programming your robot.
-* PROS is widely used and supported, and has good integration with VS Code.
-* We explore PROS in more detail in the coming sessions.
+* PROS is a popular open source programming library for VEX
+* Gives us more power and freedom compared to VEXcode Blocks
+* It is designed for our V5 hardware, so it simplifies the process of programming your robot
+* PROS is widely used and supported, and has good integration with VS Code
 
 ---
 
@@ -98,14 +112,13 @@ marp: true
 
 ## Discussion
 
-<!-- Important to understand this idea as the entire course is based on PROS, a library. A few things we'd have to do without PROS: 
+<!-- Notes: A few things we'd have to do without PROS: 
 - Direct Hardware Communication: Manually manage protocols for motors, sensors, and V5 brain.
 - Sensor Data Processing: Calibrate and interpret raw sensor data
 - Must create basic functions like angle calculations yourself
 - Develop your own way to debug code, manually manage memory processing, etc.
 -->
 * What do you think the benefits of libraries are? Can you name any widely used libraries?
-* How do libraries speed up the development process?
 * How does PROS help us in programming our VEX Robot? What do you think are some things we'd have to do ourselves if we didn't have PROS?
 
 ---
@@ -116,33 +129,53 @@ marp: true
 
 ---
 
-## IDEs and Common Software Tools
+## What are IDEs and Text Editors?
 
 ---
 
 ## Introduction to Text Editors and IDEs
 
-* We will discuss popular IDEs and text editors such as VS Code, Sublime, Vim, Emacs.
-* Basic intro to VS Code and how to navigate the UI.
-* We will introduce git and github. Git is a version control software that allows us to conveniently take snapshots of our code at any point in time, and revert back to it.
+* An IDE stands for Integrated Development Environment. It is an application you can write, debug, and edit code in
+* Text editors also allow us to write and edit code, but usually have less built in features than an IDE
+* We will use VS Code for this course and introduce it
 
 --- 
 
 ## Discussion
 
+<!-- Illustration: 
+
+Resolving merge conflict using git version control. A split computer screen that displays two versions of code side by side in VS Code. Right and left screens should have the same function, but slight difference which indicates a version conflict.
+
+Code on left:
+
+void opcontrol() {
+   move_forward(maximum speed) 
+}
+
+Code on right:
+
+void opcontrol() {
+    move_forward(half speed)
+}
+-->
 * What are some benefits and features of VS Code?
-* What are the benefits of git?
 
 ---
 
 ## Demo
 
-* Tour of VS code: How to create project, how to install plugins, using basic git commands, PROS plugin demo'd
+* Tour of VS code: How to create project, how to install plugins, using basic git commands, PROS plugin demo
 * Installing and setting up the PROS Plugin in VS Code.
 
 ---
 
 ## Homework
 
-1. Compare C and Python, and discuss scenarios for using each.
-2. Write a hello world program in C using VS Code. Make sure it compiles and can print "Hello world".
+<!--Illustration idea: 
+
+Show output of "Hello World" program on VS Code terminal of a computer screen
+
+-->
+* Write a "Hello World" program in C using VS Code. Make sure it compiles and can print "Hello world"
+["Hello, World!" Program](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
