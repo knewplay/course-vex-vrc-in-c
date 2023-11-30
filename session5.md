@@ -40,7 +40,11 @@
 * Sometimes we have to do extra setup for our sensors or motors, and it is done in the ```intialize()``` function
 * For example, if our motor is going to rotate gears, we have to declare what type of gears we are using
 <!-- Notes: Give brief description of gear ratio and why it's important -->
-<!-- Illustration idea: Different types of VEX gears and their importance -->
+<!-- Illustration idea: 
+
+An image with all the different types of VEX gears with their gear ratios, benefits, and trade offs
+
+-->
 
 ---
 
