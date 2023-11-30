@@ -39,7 +39,13 @@
 * Break problems down into simpler steps
 * Design an algorithm for the solution
 * Code the solution
-<!-- Illustration Idea: Show process of breaking down problem in real life into a programming problem. For example, remotely controlling lights with sensor or making discord bot -->
+<!-- Illustration: 
+
+Show another illustration of breaking down problem in real life into a programming problem but focusing more on converting problem into functions. 
+For example: 
+
+Vex robot will pick up triball and shoot it into net. We can have code bubble coming out of V5 that will say move_motor() to show how this function is controlling the robot
+-->
 
 ---
 
