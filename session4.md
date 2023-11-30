@@ -53,7 +53,14 @@
 ## Analog vs Digital Sensors
 
 <!-- Notes: Explain why we need to know analog vs digital for PROS. Some sensors are analog and some are digital, and it effects how we write code and instruct computer -->
-<!-- Illustration Idea: Show visual difference between analog vs digital -->
+<!-- Illustration: 
+
+Show visual difference between analog vs digital:
+
+Show robot with analog sensor attached on the right side and an arrow to waveform data coming into the sensor
+On the left side, have a digital sensor attached with an arrow to square wave/step like data of 1s and 0s coming into the sensor
+
+-->
 * Sensors will read incoming signals. Signals can be either analog or digital
 * Digital signals are either ON or OFF, only representing a specific set of values
   * Example: light switches
