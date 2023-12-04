@@ -16,6 +16,7 @@
 - Explanation of the main function, and its significance in a C program. We will discuss how all program execution in C starts from our main function.
 - Review how to properly indent, space, and format code properly for readability and consistency.
 - Give basic explanation of header, i.e. what does #include <stdio.h> mean. Header files are files with a '.h' extension and contains code that we can import into our current file. It is useful for code organization and readability.
+
  -->
 * `main()` function: Starting point of any generic C program
 * A header file is a file where you can put parts of your C code like variables, it's purpose is to make programs organized and easier to read. For example `#include <my_variables.h>`.
@@ -59,6 +60,12 @@ autonomous() {
 
 ---
 
+## Special Variable in C: void
+
+* We saw for numbers we can use int or float, for letters we can use char
+* Sometimes we want to specify no type, or "nothing", and we use keyword "void" to do that
+<!-- Note: Briefly explain that we do not declare variable type as void, but "function return type", which we will look into in more detail in a future session -->
+
 ## Discussion
 
 <!-- Illustration:
@@ -96,7 +103,7 @@ VEX clawbot in arena with vision sensor. A green triball is in front of it, and 
 
 * Performance: Compiled code runs quickly and efficiently
 * Portability: C code can be compiled for many different systems
-* Other languages like Python use an interpreter, which translates and runs code line by line. Execution is quick, but less efficient.
+* Other languages like Python use something called an interpreter, which translates and runs code line by line. Execution is quick, but less efficient.
 
 ---
 
