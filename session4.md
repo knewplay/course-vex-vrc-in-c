@@ -13,6 +13,10 @@
 ## PROS Project Structure
 
 <!-- Notes: Consider touring through a standard PROS project once again to remind students about its structure and briefly look inside the below files -->
+<!-- 
+Illustration: Images of file icons with small snippets of code for the three important PROS projects to better illustrate the file structure of a typical project
+
+-->
 * PROS projects are made up of three parts
   * PROS Library (/firmware)
   * Header files (/include)
@@ -53,6 +57,7 @@
 ## Analog vs Digital Sensors
 
 <!-- Notes: Explain why we need to know analog vs digital for PROS. Some sensors are analog and some are digital, and it effects how we write code and instruct computer -->
+
 <!-- Illustration: 
 
 Show visual difference between analog vs digital:
@@ -105,6 +110,6 @@ On the left side, have a digital sensor attached with an arrow to square wave/st
 ## Demo
 
 <!-- Notes: Use light sensor and bumper switch as examples -->
-* Let's connect these sensors to our V5 and read their values to see how they are represented in our code
+* Let's connect these sensors to our V5 and read their values to see how they are represented in our code. How do you think the values will be represented?
 
 ---
