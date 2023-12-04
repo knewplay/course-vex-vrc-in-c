@@ -14,6 +14,7 @@
 
 <!-- Notes: Give examples of infinite loops such as while (true) in the context of PROS opcontrol(), as well as in game development to build intuition -->
 * Loops in programming such as 'while' and 'for' let us repeat tasks in our code. They're great for handling repetive actions.
+* Any time you want to repeat some action, use a loop
 * In robotics, they are commonly used in scanning and movement.
 
 ---
@@ -57,7 +58,18 @@ Vex robot will pick up triball and shoot it into net. We can have code bubble co
 
 ## Demo
 
-* We will use our problem solving approach on a Fahrenheit to Celsius program
+* We will use our problem solving approach on a program that calculates the distance a robot has travelled
+<!-- 
+// Function to calculate the distance traveled in centimeters
+// rotations: the number of wheel rotations detected by the sensor
+// wheelDiameter: the diameter of the wheel in centimeters
+double calculateDistance(int rotations, double wheelDiameter) {
+    const double pi = 3.141592653589793;
+    double wheelCircumference = pi * wheelDiameter; // Circumference = π * diameter
+    double distanceTraveled = rotations * wheelCircumference;
+    return distanceTraveled;
+}
+-->
 
 ---
 
@@ -80,7 +92,7 @@ Vex robot will pick up triball and shoot it into net. We can have code bubble co
 ## Demo
 
 * Let's see a side by side comparison of a C program with no functions used, and then the same program but with functions
-* Create and demonstrate a simple function in C that performs a specific task in PROS for robotics, such as a function to control motor speed.
+* Demonstrate a simple PROS function in C that moves a motor
 
 ---
 
