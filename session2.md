@@ -76,7 +76,7 @@ VEX clawbot in arena with vision sensor seeing a green triball in front of it, a
 
 ## Compiling C Programs
 
-<!-- * Basic introduction to the concept of compiling - i.e. transforming C code into executable format.
+<!-- Note: Basic introduction to the concept of compiling - i.e. transforming C code into executable format.
 * Why compiling is necessary in C, unlike some other languages such as Python. -->
 * Compiling converts human-readable C code into machine code, allowing computers to execute it directly.
 * It is a big component of what makes C code so fast*
