@@ -56,7 +56,8 @@ autonomous() {
 -->
 * Everything in a computer is just represented as 1s and 0s
 * C has various operators such as +, -, *, //, /, %
-* In C, we categorize data into different "types" based on the kind of information they hold. int for integer, float for decimals, char for letters, etc.
+* In C, we categorize data into different "types" based on the kind of information they hold. int for integer, float for decimals, char for letters, char* for words, etc.
+* `int`, `float`, `char`, `char*`
 
 ---
 
@@ -64,6 +65,7 @@ autonomous() {
 
 * We saw for numbers we can use int or float, for letters we can use char
 * Sometimes we want to specify no type, or "nothing", and we use keyword "void" to do that
+* We will discuss this more next session
 <!-- Note: Briefly explain that we do not declare variable type as void, but "function return type", which we will look into in more detail in a future session -->
 
 ## Discussion
