@@ -91,14 +91,21 @@ An image with all the different types of VEX gears with their gear ratios, benef
 
 ## Making Our Robot Autonomous
 
-* To move our robot without using our controller, we simply put code in our ```autonomous()``` function, and select the autonomous mode from our VEX V5 controller
-* Can use any part of PROS API in autonomous that doesn't involve reading controller input. For example, ```move_relative_velocity()```
+* To move our robot without using our controller, put code in our ```autonomous()``` function
+* Select the autonomous mode from our VEX V5 controller
+<!-- Notes 
+
+- Can use any part of PROS API in autonomous that doesn't involve reading controller input. For example, ```move_relative_velocity()```
+- Show students how to make robot move autonomously, and how robot entirely reliant on sensors
+
+-->
 
 ---
 
 ## Discussion
 
 * In autonomous mode, you cannot increase speed by pushing the joystick harder. How do you think we could vary the speed using code in our `autonomous()` function?
+<!-- Students should understand that you need to control speed through PROS functions when in autonomous mode -->
 
 ---
 
