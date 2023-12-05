@@ -75,9 +75,19 @@ double calculateDistance(int rotations, double wheelDiameter) {
 
 ## Understanding Functions
 
+<!-- Note:
+* Functions are very powerful and have broad application. Examples:
+- audio effects: processing input audio data to output audio with effect (input: audio, output: audio)
+- computing area of square (input number, output: number)
+- image classification (input: image, output: classification)
+-->
 * Functions are reusable blocks of code. You can define functions through a function name, parameters, return type, and body. All functions follow this format.
 * The advantages of functions: modularity and better code organization.
-<!-- Illustration idea: Functions as machines that take input and produce output -->
+<!-- Illustration idea: 
+
+Functions as boxes or machines that take input and produce output. The box has no implementation details, which will highlight the usefulness of functions.
+
+-->
 
 ---
 
