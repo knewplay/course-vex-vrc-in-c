@@ -81,8 +81,12 @@ double calculateDistance(int rotations, double wheelDiameter) {
 - computing area of square (input number, output: number)
 - image classification (input: image, output: classification)
 -->
-* Functions are reusable blocks of code. You can define functions through a function name, parameters, return type, and body. All functions follow this format.
-* The advantages of functions: modularity and better code organization.
+* Functions are reusable blocks of code.
+* The advantages of functions: simplicity and better code organization.
+* Define function name, inputs, outputs/return type
+* Example: `int my_function(float x);`
+* In general: `return_type name(input_type variable)`
+    
 <!-- Illustration idea: 
 
 Functions as boxes or machines that take input and produce output. The box has no implementation details, which will highlight the usefulness of functions.
@@ -90,6 +94,12 @@ Functions as boxes or machines that take input and produce output. The box has n
 -->
 
 ---
+
+## Function Return Types
+
+* Functions can have return type of int, float, char, char*
+* Special return type: void
+* void means return type is 'nothing' or 'no type'
 
 ## Discussion
 
