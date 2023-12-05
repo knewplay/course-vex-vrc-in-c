@@ -13,12 +13,18 @@
 
 ## Declaring our Sensors
 
-<!-- Notes: Make sure students understand port is just a way to inferface to sensor -->
+<!-- Notes: 
+
+- Make sure students understand port is just a way to inferface to sensor 
+- Tell students VEX V5 has 21 ports, and we can connect our sensor to any port.
+- If you connect sensor to port 10, you then send data to port 10, or use port 10 as input to functions in order to control the sensor
+
+-->
+
 * To use any sensor in VEX using PROS, we first need to declare the port it is connected to in our C program.
-* Recall our VEX V5 has 21 ports, and we can connect our sensor to any port.
-* Clean and simple way: ```#define SENSOR_1 11```
+* Clean and simple way: ```#define SENSOR_1 11``` in `main.c` or a header file
 * ```SENSOR_1``` can now be used to reference our sensor connected to port 11
-* If you have many sensors, put their declarations in header file for better organization
+* Put sensor declarations in header file for better organization
 
 ---
 
