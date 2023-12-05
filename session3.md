@@ -86,7 +86,7 @@ double calculateDistance(int rotations, double wheelDiameter) {
 * Define function name, inputs, outputs/return type
 * Example: `int my_function(float x);`
 * In general: `return_type name(input_type variable)`
-    
+
 <!-- Illustration idea: 
 
 Functions as boxes or machines that take input and produce output. The box has no implementation details, which will highlight the usefulness of functions.
@@ -106,6 +106,7 @@ Functions as boxes or machines that take input and produce output. The box has n
 * Why are functions important in programming?
 * Give an example of a function
 * DRY: Don't Repeat Yourself principle
+    
 
 ---
 
