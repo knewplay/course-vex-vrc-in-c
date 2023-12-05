@@ -12,8 +12,12 @@
 
 ## PROS Project Structure
 
-<!-- Notes: Consider touring through a standard PROS project once again to remind students about its structure and briefly look inside the below files -->
+<!-- Notes: 
+
+Consider touring through a standard PROS project once again to remind students about its structure and briefly look inside the below files 
+-->
 <!-- 
+
 Illustration: Images of file icons with small snippets of code for the three important PROS projects to better illustrate the file structure of a typical project
 
 -->
@@ -33,6 +37,12 @@ Illustration: Images of file icons with small snippets of code for the three imp
 ---
 
 ## Main PROS Functions
+
+<!-- 
+- initialize(): Runs before the other functions. Use it to do set up such as declaring gearset (type of gears your robot uses), configuration of vision sensor (what colour should sensor detect), etc.
+- opcontrol(): Main loop where your code will go to control the robot. Responsible for motor movement, sensor actions, how to respond to user controller, etc.
+- autonomous(): Any code for action a robot can do without human controller goes here. Motor movement, gripping claw, etc.
+-->
 
 * `initialize()`: For setup of sensors and motors
 * `opcontrol()`: To control robot motion
