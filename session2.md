@@ -56,7 +56,7 @@ autonomous() {
 -->
 * Everything in a computer is just represented as 1s and 0s
 * C has various operators such as +, -, *, //, /, %
-* In C, we categorize data into different "types" based on the kind of information they hold. int for integer, float for decimals, char for letters, char* for words, etc.
+* In C, we categorize data into different "types" based on the kind of information they hold. int for integer, float for decimals, char for letters, char* for words (strings), etc.
 * `int`, `float`, `char`, `char*`
 
 ---
@@ -97,7 +97,7 @@ VEX clawbot in arena with vision sensor. A green triball is in front of it, and 
 
 -->
 * Compiling converts human-readable C code into machine code, allowing computers to execute it directly.
-* It is a big component of what makes C code so fast*
+* It is a big component of what makes C code so fast
 
 ---
 
@@ -118,5 +118,6 @@ VEX clawbot in arena with vision sensor. A green triball is in front of it, and 
 ## Homework
 
 * Within main(), write code that will compute area of a triangle by declaring variables, and using appropriate arithmetic operations. Try to experiment using float and int, as well as / vs //.
+* If a number is divisble by 3, print "fizz", if it is divisible by 5, print "buzz", if it is divisible by both, print "fizzbuzz"
 
 ---
