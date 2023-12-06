@@ -2,44 +2,30 @@
 marp: true
 ---
 
-# **Session 6: More on Sensors**
+# **Session 6: Sensors and Motors in Depth**
 
 ---
 
 ## Goals
 
-* Understand VEX Vision Sensor
+<!-- Notes: We will get a better understanding of how PROS and sensors work through using the vision sensor -->
 * How to use the PROS API to program VEX sensors
+* Understand VEX Vision Sensor
+* Different ways of moving with motors
 
 ---
 
 ## Overview of the Vision Sensor
 
+<!-- We can also use it together with autonomous mode to do more complex tasks -->
 * This sensor allows for our robot to see objects and interact with them
 * For example, locate green objects and move towards them
-
 
 ## Initializing our Vision Sensor to Detect Objects
 
 * Define vision port
 * Specify a colour range to detect for our vision sensor
 * Colour range called colour signature
-
-## Demo
-
-<!-- Notes: 
-#define VISION_PORT 1
-
-void initialize() {
-  // values acquired from the vision utility
-  vision_signature_s_t RED_SIG =
-    vision_signature_from_utility(EXAMPLE_SIG, 8973, 11143, 10058, -2119, -1053, -1586, 5.4, 0);
-}
-
--->
-* Let's set up our vision sensor in the PROS ```initialize()``` function
-
-
 
 ## Interacting with Objects
 
@@ -50,6 +36,18 @@ void initialize() {
 ## Demo
 
 
+## Motors
+
+* Many ways to do movement with motors
+* Some better for autonomous mode, some better for user mode
+
+## Initializing our Motors
+
+
+## Demo
+
+
+## Motors for Autonomous Mode
 
 
 
