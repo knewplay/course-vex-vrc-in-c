@@ -33,7 +33,7 @@
 
 ## Demo
 
-* Write a "Hello World" program in C by yourself, with no references. Remember the basic requirements for a generic C program.
+* Write a "Hello World" program in C by yourself. Remember the basic requirements for a generic C program.
 * Create header file called `my_variables.h` with the code `int a = 5;`. Include it in our `main.c` file, and from our `main()` function print the variable a. What happens?
 * Try and see what happens with and without including `<stdio.h>`. What error do you get?
 
