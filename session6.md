@@ -2,7 +2,7 @@
 marp: true
 ---
 
-# **Session 6: Sensors and Motors in Depth**
+# **Session 6: More on Sensors and Motors**
 
 ---
 
@@ -56,13 +56,48 @@ marp: true
 * Some better for autonomous mode, some better for user mode
 
 ## Initializing our Motors
+<!--Notes: Standard way to do this: 
 
+#define MOTOR_PORT 1
+
+void initialize() {
+  motor_set_gearing(MOTOR_PORT, E_MOTOR_GEARSET_18);
+  motor_set_reversed(MOTOR_PORT, true);
+  motor_set_encoder_units(MOTOR_PORT, E_MOTOR_ENCODER_DEGREES);
+}
+-->
+* We must setup our motors in the `initialize()` function
+* Setup means to specify gearset and encoder units the motor controls
 
 ## Demo
 
+* Let's see how to initialize our motor in PROS
 
-## Motors for Autonomous Mode
+## Motor Functions for Autonomous Mode
+
+<!-- Notes:
+
+#define MOTOR_PORT 1
+#define MOTOR_MAX_SPEED 100 // The motor has the 36 Gearset
+
+void autonomous() {
+  motor_move_relative(MOTOR_PORT, 1000, MOTOR_MAX_SPEED);
+  // This will move 1000 ticks forward
+  motor_move_relative(MOTOR_PORT, 1000, MOTOR_MAX_SPEED);
+  // This moves an additional 1000 ticks forward
+  motor_move_absolute(MOTOR_PORT, 1000, MOTOR_MAX_SPEED);
+  // This moves 1000 ticks backwards to the 1000 tick position
+}
+-->
+* In PROS, we have specific functions for moving motors in autonomous mode
+* `motor_move_absolute()` and `motor_move_relative()`
+
+## Demo
+
+* Let's see how to use these functions in autonomous mode
 
 
+## Combining Autonomous Mode with Vision Sensor
 
 
+## Demo
