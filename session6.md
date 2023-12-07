@@ -17,12 +17,13 @@ marp: true
 
 ## Overview of the Vision Sensor
 
-<!-- We can also use it together with autonomous mode to do more complex tasks -->
+<!-- Notes: We can also use it together with autonomous mode to do more complex tasks -->
 * This sensor allows for our robot to see objects and interact with them
 * For example, locate green objects and move towards them
 
 ## Initializing our Vision Sensor to Detect Objects
 
+<!-- Notes: We can have multiple colour ranges. Default behaviour is to get object of specified colour by size -->
 * Define vision port
 * Specify a colour range to detect for our vision sensor
 * Colour range called colour signature
@@ -34,21 +35,24 @@ marp: true
 ## Interacting with Objects
 
 * The vision sensor will detect objects and then return data that we can work with
-* The data gives us the colour signature, height width, and coordinates of the object
+* The data returned is colour signature, height width, and coordinates of the object
 * Vision sensor can return objects based on their size, colour, or both
 
 <!--Notes: 
 * Each returned object from the vision sensor comes with a set of coordinates telling where the object was found in the vision sensor’s field of view. 
-* The default behavior is to return the coordinates as distance from the top left corner of the field of view - so positive y is downward and positive x is right. 
+* The default behavior is to return the coordinates as distance from the top left corner of the field of view so positive y is downward and positive x is right. 
 * With the PROS API, you can change this behavior so that the center of the Field Of View is the (0,0) point for object coordinates. Positive y is still downward and positive x is still right, but negative y is upward of center and negative x is left of center in this configuration.
 -->
 
 
 ## Discussion
 
+* If you had to make a vision sensor, what type of data would you store for a programmer to work with?
 
 ## Demo
 
+* Let's see if our clawbot can recognize this green triball
+* We will specify color range to detect green
 
 ## Motors
 
@@ -99,5 +103,8 @@ void autonomous() {
 
 ## Combining Autonomous Mode with Vision Sensor
 
+* Using our motor functions for autonomous mode, and the vision sensor data, we can now program them together
 
 ## Demo
+
+* Let's have our robot now detect the green triball using the vision sensor, and autonomously move towards it
