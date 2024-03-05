@@ -76,6 +76,7 @@ Show robot with analog sensor attached on the right side and an arrow to wavefor
 On the left side, have a digital sensor attached with an arrow to square wave/step like data of 1s and 0s coming into the sensor
 
 -->
+![Analog vs Digital](./analog.jpg)
 * Sensors will read incoming signals. Signals can be either analog or digital
 * Digital signals are either ON or OFF, only representing a specific set of values
   * Example: light switches
