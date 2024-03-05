@@ -19,6 +19,7 @@ marp: true
 <!-- This is required for to achieve many objectives for the competition -->
 * They are a way to get our robot to do more things at the same time. For example, lift and turn
 * Multithreading is like a kitchen where multiple chefs (threads) work on different dishes (tasks) at the same time, sharing the same kitchen space (computer resources). This makes cooking (processing) faster and more efficient.
+![Juggler](./juggler.jpg)
 
 ## Discussion
 
