@@ -65,6 +65,7 @@ if object_detected then
     move_arm_to(object_position)
     close_claw()
 -->
+![Robot Arm](./robot-arm.jpg)
 
 ---
 
@@ -205,6 +206,7 @@ void opcontrol() {
 
 Show output of "Hello World" program on VS Code terminal of a computer screen:
 -->
+![Hello World](./hello-world.jpg)
 * Write a "Hello World" program in C using VS Code. Make sure it compiles and can print "Hello world"
 ["Hello, World!" Program](https://en.wikipedia.org/wiki/%22Hello,_World!%22_program)
 * Do you think there is any program/application you can write in one programming language but not the other? Why or why not?
