@@ -75,6 +75,7 @@ autonomous() {
 VEX clawbot in arena with vision sensor. A green triball is in front of it, and it is receiving data as input that a programmer can then use in their program
 
 -->
+![clawbot](./detecting-ball.jpg)
 * Imagine a robot is reading vision sensor data as input, and you want to store the data into a variable. How do you think the data is represented, and what should the type be of the variable?
 * What are the different uses for int, char, and float variables?
 * What is the difference between the /, //, and % operators?
