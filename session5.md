@@ -51,7 +51,7 @@
 An image with all the different types of VEX gears with their gear ratios, benefits, and trade offs
 
 -->
-
+![Gears](./gears.jpg)
 ---
 
 ## Discussion
