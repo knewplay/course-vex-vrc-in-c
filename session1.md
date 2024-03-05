@@ -82,15 +82,7 @@ if object_detected then
 * Notable software like the Linux kernel, video games and mobile operating systems like Android are written in C
 * C lets us interact easily with computer memory, making it well suited for applications that require speed and efficiency
 
-<!-- Illustration: 
-
-Embedded device and code snippet that controls it. Example: smart light bulb
-
-A kid sitting at their desk with a microcontroller such as a raspberry pi that has wires connected to a computer and a smart bulb. The computer screen shows code that will control the bulb, for example:
-
-if motion_detected() and time is between 6 PM and 6 AM then:
-    turn_on(light_bulb)
--->
+![Racing](./racing-car.jpg)
 ---
 
 ## Discussion
