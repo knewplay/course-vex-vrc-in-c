@@ -40,13 +40,6 @@
 * Break problems down into simpler steps
 * Design an algorithm for the solution
 * Code the solution
-<!-- Illustration: 
-
-Show another illustration of breaking down problem in real life into a programming problem but focusing more on converting problem into functions. 
-For example: 
-
-Vex robot will pick up triball and shoot it into net. We can have code bubble coming out of V5 that will say move_motor() to show how this function is controlling the robot
--->
 
 ---
 
@@ -92,6 +85,7 @@ double calculateDistance(int rotations, double wheelDiameter) {
 Functions as boxes or machines that take input and produce output. The box has no implementation details, which will highlight the usefulness of functions.
 
 -->
+![Functions](./converting-machine.jpg)
 
 ---
 
