@@ -75,6 +75,7 @@ Show visual difference between analog vs digital:
 Show robot with analog sensor attached on the right side and an arrow to waveform data coming into the sensor
 On the left side, have a digital sensor attached with an arrow to square wave/step like data of 1s and 0s coming into the sensor
 
+note: sound wave
 -->
 ![Analog vs Digital](./analog.jpg)
 * Sensors will read incoming signals. Signals can be either analog or digital
