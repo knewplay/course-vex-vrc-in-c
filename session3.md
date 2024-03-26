@@ -13,7 +13,7 @@
 ## Understanding Loops
 
 <!-- Notes: Give examples of infinite loops such as while (true) in the context of PROS opcontrol(), as well as in game development to build intuition -->
-* Loops in programming such as 'while' and 'for' let us repeat tasks in our code. They're great for handling repetive actions.
+* Loops in programming such as `while` and `for` let us repeat tasks in our code. They're great for handling repetive actions.
 * Any time you want to repeat some action, use a loop
 * In robotics, they are commonly used in scanning and movement.
 
@@ -29,8 +29,8 @@
 
 ## Demo
 
-* Let's use loops to print integers from 1 to 10.
-* In the PROS opcontrol() function, we can use a loop to have the robot move its motors. Let's see how it's done.
+* Let's use both `while` and `for` loops to print integers from 1 to 10.
+* In the PROS `opcontrol()` function, we can use a loop to have the robot move its motors. Let's see how it's done.
 
 ---
 
@@ -91,16 +91,15 @@ Functions as boxes or machines that take input and produce output. The box has n
 
 ## Function Return Types
 
-* Functions can have return type of int, float, char, char*
-* Special return type: void
-* void means return type is 'nothing' or 'no type'
+* Functions can have return type of `int`, `float`, `char`, `char*`
+* Special return type: `void`
+* `void` means return type is 'nothing' or 'no type'
 
 ## Discussion
 
 * Why are functions important in programming?
 * Give an example of a function
 * DRY: Don't Repeat Yourself principle
-    
 
 ---
 
