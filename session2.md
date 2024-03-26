@@ -55,7 +55,7 @@ autonomous() {
 
 -->
 * Everything in a computer is just represented as 1s and 0s
-* C has various operators such as +, -, *, //, /, %
+* C has various operators such as `+`, `-`, `*`, `//`, `/`, `%`
 * In C, we categorize data into different "types" based on the kind of information they hold. int for integer, float for decimals, char for letters, char* for words (strings), etc.
 * `int`, `float`, `char`, `char*`
 
@@ -64,7 +64,7 @@ autonomous() {
 ## Special Variable in C: void
 
 * We saw for numbers we can use int or float, for letters we can use char
-* Sometimes we want to specify no type, or "nothing", and we use keyword "void" to do that
+* Sometimes we want to specify no type, or "nothing", and we use keyword `void` to do that
 * We will discuss this more next session
 <!-- Note: Briefly explain that we do not declare variable type as void, but "function return type", which we will look into in more detail in a future session -->
 
@@ -85,7 +85,7 @@ VEX clawbot in arena with vision sensor. A green triball is in front of it, and 
 ## Demo
 
 * Let's create a C program showing different types of variable assignments and operators, as well as snippet of PROS opcontrol function that makes use of void and int variables.
-* We also see how arithmetic operations are evaluated in C, difference between / and //, and common uses of % (remainder)
+* We also see how arithmetic operations are evaluated in C, difference between `/` and `//`, and common uses of `%` (remainder)
 
 ---
 
@@ -118,7 +118,7 @@ VEX clawbot in arena with vision sensor. A green triball is in front of it, and 
 
 ## Homework
 
-* Within main(), write code that will compute area of a triangle by declaring variables, and using appropriate arithmetic operations. Try to experiment using float and int, as well as / vs //.
+* Within `main()`, write code that will compute area of a triangle by declaring variables, and using appropriate arithmetic operations. Try to experiment using float and int, as well as `/` vs `//`.
 * If a number is divisble by 3, print "fizz", if it is divisible by 5, print "buzz", if it is divisible by both, print "fizzbuzz"
 
 ---
