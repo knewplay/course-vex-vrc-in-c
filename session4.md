@@ -1,127 +1,82 @@
-# **Session 4: Functions, Organization, and Sensors in VEX**
+# **Session 4: Header Files & Code Organization**
 
 ---
 
 ## Goals
 
 * How header files work in C
-* Analog vs Digital signals and sensors in VEX
-* Understanding important PROS functions
+* How to organize code
 
 ---
 
-## PROS Project Structure
+## Header Files
 
-<!-- Notes: 
-
-Consider touring through a standard PROS project once again to remind students about its structure and briefly look inside the below files 
--->
-<!-- 
-
-Illustration: Images of file icons with small snippets of code for the three important PROS projects to better illustrate the file structure of a typical project
-
--->
-* PROS projects are made up of three parts
-  * PROS Library (/firmware)
-  * Header files (/include)
-  * User code (/src)
+* Purpose: Header files in C are used to declare variables, and data types that are used across multiple C files.
+* Syntax: They have a .h extension and are included in C source files using the `#include`
+* Standard headers are `stdio.h`, `stdlib.h`
+* You can create your own headers to make code more resuable and readable
 
 ---
 
-## PROS Header Files
+## Best Practices
 
-<!-- Notes: Look inside api.h and main.h to get students familiar with these files -->
-* api.h: contains PROS API functions such as `motor_move()`
-* main.h: contains user declared code i.e. anything you want to add
-
----
-
-## Main PROS Functions
-
-<!-- 
-- initialize(): Runs before the other functions. Use it to do set up such as declaring gearset (type of gears your robot uses), configuration of vision sensor (what colour should sensor detect), etc.
-- opcontrol(): Main loop where your code will go to control the robot. Responsible for motor movement, sensor actions, how to respond to user controller, etc.
-- autonomous(): Any code for action a robot can do without human controller goes here. Motor movement, gripping claw, etc.
--->
-
-* `initialize()`: For setup of sensors and motors
-* `opcontrol()`: To control robot motion
-* `autonomous()`: For self driving
+* Modular Design: Divide your program into distinct segments, each with a clear responsibility
+* Consistency: Have a consistent naming convention for header files and their corresponding source files (e.g., math_operations.h and math_operations.c)
+* Minimal Include: Only include necessary header files within other headers to avoid unnecessary dependencies and reduce compilation times
 
 ---
 
 ## Discussion
 
-* What does `#include "api.h"` do?
-* Can you explain what would happen if we did not have `#include "api.h"` in our PROS file?
+* What do you think would be inside `stdio.h`?
+* What advantages do you think header files give us?
 
 ---
 
 ## Demo
 
-* Let's create a new PROS project and see how each of `initialize()`, `opcontrol()`, `autonomous()` work in practice
-* We'll also define our own header file and include it in `api.h`
+* Let's see some examples of how to create and use header files in C
+* Let's also also take a look at some of the standard header files in a C program such as `stdio.h` and see what's inside
 
 ---
 
-## Analog vs Digital Sensors
+## Header Files and Organization in PROS
 
-<!-- Notes: Explain why we need to know analog vs digital for PROS. Some sensors are analog and some are digital, and it effects how we write code and instruct computer -->
+* `api.h`: The primary header file for PROS, which includes declarations for most of the basic functions and types used in PROS
 
-<!-- Illustration: 
-
-Show visual difference between analog vs digital:
-
-Show robot with analog sensor attached on the right side and an arrow to waveform data coming into the sensor
-On the left side, have a digital sensor attached with an arrow to square wave/step like data of 1s and 0s coming into the sensor
-
-note: sound wave
--->
-![Analog vs Digital](./analog.jpg)
-* Sensors will read incoming signals. Signals can be either analog or digital
-* Digital signals are either ON or OFF, only representing a specific set of values
-  * Example: light switches
-* Analog signals are continuous and vary smoothly over time  
-  * Example: temperature or a volume knob. They can take on a range of values.
+* `main.h`: Typically includes the main declarations and is where users can add their own function declarations, global variables, and additional includes
 
 ---
 
 ## Discussion
 
-* Can you give examples of other analog and digital signals?
+* What kind of code do you think is in `api.h` and `main.h` and why?
 
 ---
 
 ## Demo
 
-* Let's see which sensors in VEX are considered analog and which are digital
+* Let's take a look inside the two functions and see what type of code are in the headers
 
 ---
 
-## Important Analog Sensors in VEX
+## PROS Functions and Organizing Your Code
 
-<!-- Notes: Have sensors to show students in person -->
-* Potentiometer: Measures angular position.
-* Light Sensor: Produces an analog value based on the amount of light it detects
+* The main functions in PROS are `setup()`, `opcontrol()`, and `autonomous()`
+* `opcontrol()`:
+  * Manages manual robot control via user inputs during the operator control phase
+  * Continuously checks and responds to joystick and button inputs to control actuators
 
----
+* `setup()`:
+  * Initializes robot configurations and sensor before competition phases
+  * Executed once at the start to prepare the robot for operation
 
-## Important Digital Sensors in VEX
-
-* Bumper Switch: Acts as a simple digital switch. It's either pressed (1) or not pressed (0)
-* Quad Encoder: Measures rotational position of an axle and speed of rotation
-
----
-
-## Discussion
-
-* Why do you think the light sensor is considered analog, and the bumper switch is considered digital?
+* `autonomous()`:
+  * Controls the robot automatically without user input during the autonomous phase
+  * Executes pre-programmed tasks and strategies for autonomous operation
 
 ---
 
 ## Demo
 
-<!-- Notes: Use light sensor and bumper switch as examples -->
-* Let's connect these sensors to our V5 and read their values to see how they are represented in our code. How do you think the values will be represented?
-
----
+* Let's now take a look at these three functions and write code for each one
