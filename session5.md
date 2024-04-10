@@ -1,4 +1,4 @@
-# **Session 5: Using VEX Sensors and Motors in PROS**
+# **Session 5: Sensors and Motors**
 
 ---
 
@@ -23,7 +23,7 @@
 
 * To use any sensor in VEX using PROS, we first need to declare the port it is connected to in our C program.
 * Clean and simple way: ```#define SENSOR_1 11``` in `main.c` or a header file
-* ```SENSOR_1``` can now be used to reference our sensor connected to port 11
+
 * Put sensor declarations in header file for better organization
 
 ---
