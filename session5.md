@@ -151,9 +151,4 @@ void autonomous() {
 * Let's see how to use these functions in autonomous mode
 * Let's have our robot now detect the green triball using the vision sensor, and autonomously move towards it
 
-
 ---
-
-## Combining Autonomous Mode with Vision Sensor
-
-* Using our motor functions for autonomous mode, and the vision sensor data, we can now program them together
