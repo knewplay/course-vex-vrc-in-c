@@ -6,7 +6,7 @@
 
 <!-- Notes: Students should be able to write basic code to control a wheeled robot after this lesson -->
 * How to initialize and configure any sensor in VEX for our robot
-* How to read and write to sensors in order to control our robot
+* How to read and write to sensors and motors using PROS API
 * How to make our robot autonomous
 
 ---
@@ -60,32 +60,18 @@ An image with all the different types of VEX gears with their gear ratios, benef
 
 ---
 
-## Demo
-
-* Now let's take a look at how we used the three functions in our clawbot.
-<!-- Notes: During this process, take opportunity to show students the PROS API and functions we can use and experiment with from there -->
-
----
 
 ## Controlling Our Robot With Sensors Using the PROS API
 
 * We want to create a loop in our ```opcontrol()``` function which will always be running while the robot is on
 * Inside the loop we put our PROS API functions to control the motors and sensors
 * Example: ```motor_move_velocity(WHEELS, 100)```
-* For our clawbot, the arm, claw, and wheels connected to motors that we control with code using PROS API
 
 ---
 
 ## Discussion
 
 * What would happen if we didn't have ```while (true)``` in our ```opcontrol()``` function?
-
----
-
-## Demo
-
-* Let's now see what functions we can use in our opcontrol() function to modify the behaviour of our robot
-* We will control the motors and also briefly look at the vision sensor
 
 ---
 
@@ -102,15 +88,72 @@ An image with all the different types of VEX gears with their gear ratios, benef
 
 ---
 
-## Discussion
+## Demo
 
-* In autonomous mode, you cannot increase speed by pushing the joystick harder. How do you think we could vary the speed using code in our `autonomous()` function?
-<!-- Students should understand that you need to control speed through PROS functions when in autonomous mode -->
+* Now let's take a look at how we used the three functions in our clawbot.
+* Let's also step through the code for autonomous and see what functions we can add to it through the PROS API
+<!-- Notes: During this process, take opportunity to show students the PROS API and functions we can use and experiment with from there -->
+
+---
+
+## Controlling Motors with PROS
+
+* Many ways to do movement with motors
+* Some better for autonomous mode, some better for user mode
 
 ---
 
-# Demo
+## Initializing our Motors
+<!--Notes: Standard way to do this: 
 
-* Let's step through the code for autonomous and see what functions we can add to it through the PROS API
+#define MOTOR_PORT 1
+
+void initialize() {
+  motor_set_gearing(MOTOR_PORT, E_MOTOR_GEARSET_18);
+  motor_set_reversed(MOTOR_PORT, true);
+  motor_set_encoder_units(MOTOR_PORT, E_MOTOR_ENCODER_DEGREES);
+}
+-->
+* We must setup our motors in the `initialize()` function
+* Setup means to specify gearset and encoder units the motor controls
 
 ---
+
+## Demo
+
+* Let's see how to initialize our motor in PROS
+
+---
+
+## Motor Functions for Autonomous Mode
+
+<!-- Notes:
+
+#define MOTOR_PORT 1
+#define MOTOR_MAX_SPEED 100 // The motor has the 36 Gearset
+
+void autonomous() {
+  motor_move_relative(MOTOR_PORT, 1000, MOTOR_MAX_SPEED);
+  // This will move 1000 ticks forward
+  motor_move_relative(MOTOR_PORT, 1000, MOTOR_MAX_SPEED);
+  // This moves an additional 1000 ticks forward
+  motor_move_absolute(MOTOR_PORT, 1000, MOTOR_MAX_SPEED);
+  // This moves 1000 ticks backwards to the 1000 tick position
+}
+-->
+* In PROS, we have specific functions for moving motors in autonomous mode
+* `motor_move_absolute()` and `motor_move_relative()`
+
+---
+
+## Demo
+
+* Let's see how to use these functions in autonomous mode
+* Let's have our robot now detect the green triball using the vision sensor, and autonomously move towards it
+
+
+---
+
+## Combining Autonomous Mode with Vision Sensor
+
+* Using our motor functions for autonomous mode, and the vision sensor data, we can now program them together
