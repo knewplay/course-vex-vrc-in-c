@@ -30,6 +30,28 @@ marp: true
 
 ---
 
+## Pure Pursuit
+
+* Path following algorithm to help robot follow predefined path smoothly
+* Robot looks ahead on the path and adjusts its steering to follow that point by calcuating streering angle
+
+---
+
+## Odometry
+
+* Odometry is a technique used to estimate a robot's position and orientation based on its movement over time
+* Uses data from wheel encoders which measure rotation
+* Helps our robot navigate
+
+---
+
+## Motion Chaining
+
+* Breaks down complex movements into a series of simpler movements
+* Each action is performed one after another, forming a chain
+
+---
+
 ## What is PID?
 
 * PID Stands for Proportional, Integral, and Derivative
