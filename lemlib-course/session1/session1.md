@@ -64,6 +64,7 @@ marp: true
 * Proportional (P): Reacts to current error. Larger error means larger correction
 * Integral (I): Reacts to the accumulated error over time
 * Derivative (D): Reacts to rate of change of error
+![PID](./PID_Controller.jpg)
 
 ---
 
