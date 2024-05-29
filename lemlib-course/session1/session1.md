@@ -68,16 +68,6 @@ marp: true
 
 ---
 
-## How PID Works
-
-* Setpoint: Desired target value
-* Process Variable: Current value
-* Error: Difference between setpoint and process variable
-* Correction = P + I + D:
-  * Adjusts output to minimize error
-
----
-
 ## PID Tuning
 
 * Adjusting PID parameters (P, I, D) to get the desired response
@@ -85,9 +75,30 @@ marp: true
 
 ---
 
+## How to Tune PID: The Proportional (P) Value
+
+* First start with increasing P which we can define as how much we want the motors to slow down as it gets to the target area, and also speed up on release.
+* Example: if robot does not slow down fast enough, may want to lower P
+* In the PID loop, P values will always be non-zero
+
+## How to Tune PID: The Derivative (D) Value
+
+* Increasing D helps to the slow down the robot as it approaches its final destination
+* Example: if the robot slows down too much when trying to get to its target position, try increasing D
+
+## How to Tune PID: The Integral (I) Value
+
+* Increasing I helps to speed up the robot slightly faster it reaches its final destination, and helps counteracts D
+* Example: if the robot slows down too much when trying to get to its target position, increasing I may help compensate it. 
+
+## Tuning tips
+
+* Adjust one constant at a time between testing
+* For drives, start with tuning P, then D, and finally I
+
 ## PID Example: Controlling Robot's Motor Speed
 
-* Setpoint: Desired speed.
-* Process Variable: Actual speed.
-* Error: Difference between desired and actual speed.
-* Use PID to adjust motor power to reach and maintain the desired speed. 
+* Setpoint: Desired speed
+* Process Variable: Actual speed
+* Error: Difference between desired and actual speed
+* Use PID to adjust motor power to reach and maintain the desired speed
