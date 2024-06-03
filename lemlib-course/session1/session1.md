@@ -91,10 +91,14 @@ marp: true
 * Increasing I helps to speed up the robot slightly faster it reaches its final destination, and helps counteracts D
 * Example: if the robot slows down too much when trying to get to its target position, increasing I may help compensate it. 
 
+---
+
 ## Tuning tips
 
 * Adjust one constant at a time between testing
 * For drives, start with tuning P, then D, and finally I
+
+---
 
 ## PID Example: Controlling Robot's Motor Speed
 
