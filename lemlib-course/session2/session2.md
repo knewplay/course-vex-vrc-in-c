@@ -35,3 +35,36 @@ marp: true
 * Let's see how to code our robot with this function and additional parameters we can add
 
 ## Lateral Motion
+
+* Helps us move our robot across the field
+* Uses both angular and lateral PID controllers
+* Can use ``chassis.moveToPoint(10, 10, 4000);`` to move our robot to the coordinates ``(10, 10)`` with 4000 ms time delay
+
+## Pure Pursuit: How it works
+
+* Pure Pursuit is a path following algorithm. The robot can do smooth quick movements with it
+* Algorithm draws circle around robot and finds intersection of the circle with specified path
+* Robot drives toward intersection of circle and path
+![pure pursuit](https://lemlib.readthedocs.io/en/v0.5.0/_images/pursuit.gif)
+
+## Pure Pursuit: Creating Paths
+
+* Can use the website [path.jerry.io](https://path.jerry.io) to specify path
+* On the website, draw path, then save and download the path as a ``.txt`` file
+* We can then upload our file to our robot using LemLib as follows
+
+```
+// path file name is "example.txt".
+ASSET(example_txt);
+ASSET(example2_txt);
+
+void autonomous() {
+    // set chassis pose
+    chassis.setPose(0, 0, 0);
+    // lookahead distance: 15 inches
+    // timeout: 2000 ms
+    chassis.follow(example_txt, 15, 2000);
+    // follow the next path, but with the robot going backwards
+    chassis.follow(example2_txt, 15, 2000, false);
+}
+```
