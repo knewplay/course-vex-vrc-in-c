@@ -39,6 +39,8 @@ marp: true
 * Helps us move our robot across the field
 * Uses both angular and lateral PID controllers
 * Can use ``chassis.moveToPoint(10, 10, 4000);`` to move our robot to the coordinates ``(10, 10)`` with 4000 ms time delay
+![lateral motion](/./Move.jpg)
+
 
 ## Pure Pursuit: How it works
 
@@ -68,3 +70,6 @@ void autonomous() {
     chassis.follow(example2_txt, 15, 2000, false);
 }
 ```
+
+## Motion Chaining
+
