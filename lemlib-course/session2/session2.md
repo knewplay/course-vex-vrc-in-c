@@ -73,3 +73,10 @@ void autonomous() {
 
 ## Motion Chaining
 
+* Chaining of multiple motions together
+* Useful for paths that cannot be described with one single motion, such as going around obstacles
+* Faster than Pure Pursuit and Lateral Motion, but less accurate
+
+## Demo
+
+* Let's take a look at how to implement Motion Chaining in LemLib
