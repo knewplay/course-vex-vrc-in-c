@@ -76,6 +76,7 @@ void autonomous() {
 * Chaining of multiple motions together
 * Useful for paths that cannot be described with one single motion, such as going around obstacles
 * Faster than Pure Pursuit and Lateral Motion, but less accurate
+![motion chaining](/./Box2.jpg)
 
 ## Demo
 
