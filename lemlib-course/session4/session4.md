@@ -40,6 +40,8 @@ marp: true
 
 * PIDs control power for our motors based off input sensor data
 * Used for almost all motion algorithms in LemLib
+![PID](./flowchart_A.jpg)
+![PID](./flowchart_B.jpg)
 
 ## Demo
 
