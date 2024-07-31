@@ -53,23 +53,11 @@ marp: true
 
 * Can use the website [path.jerry.io](https://path.jerry.io) to specify path
 * On the website, draw path, then save and download the path as a ``.txt`` file
-* We can then upload our file to our robot using LemLib as follows
+* We can then upload our file to our robot using LemLib
 
-```
-// path file name is "example.txt".
-ASSET(example_txt);
-ASSET(example2_txt);
+# Demo
 
-void autonomous() {
-    // set chassis pose
-    chassis.setPose(0, 0, 0);
-    // lookahead distance: 15 inches
-    // timeout: 2000 ms
-    chassis.follow(example_txt, 15, 2000);
-    // follow the next path, but with the robot going backwards
-    chassis.follow(example2_txt, 15, 2000, false);
-}
-```
+* Uploading file to LemLib using C++
 
 ## Motion Chaining
 
